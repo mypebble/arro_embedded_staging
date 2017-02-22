@@ -1,1 +1,0 @@
-define({r:0.5,st:'Stem',n:1,t:[0],u:['../ArroEmbeddedhelp/embedded-home.htm'],s:['add'],p:[['add',0]]});
