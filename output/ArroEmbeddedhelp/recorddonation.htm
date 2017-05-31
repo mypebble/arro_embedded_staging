@@ -5,17 +5,18 @@
         <meta charset="utf-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>Record donation</title>
-        <link href="../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" data-mc-generated="True" />
-        <link href="../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" data-mc-generated="True" />
-        <link href="../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" data-mc-generated="True" />
-        <link href="../Skins/Default/Stylesheets/Components/Styles.css" rel="stylesheet" data-mc-generated="True" />
-        <link href="../Skins/Default/Stylesheets/Components/Tablet.css" rel="stylesheet" data-mc-generated="True" />
-        <link href="../Skins/Default/Stylesheets/Components/Mobile.css" rel="stylesheet" data-mc-generated="True" />
-        <link href="../Skins/Fluid/Stylesheets/foundation.5.5.0.css" rel="stylesheet" data-mc-generated="True" />
-        <link href="../Skins/Fluid/Stylesheets/Styles.css" rel="stylesheet" data-mc-generated="True" />
-        <link href="../Skins/Fluid/Stylesheets/Tablet.css" rel="stylesheet" data-mc-generated="True" />
-        <link href="../Skins/Fluid/Stylesheets/Mobile.css" rel="stylesheet" data-mc-generated="True" />
+        <link href="../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../Skins/Default/Stylesheets/Components/Styles.css" rel="stylesheet" />
+        <link href="../Skins/Default/Stylesheets/Components/Tablet.css" rel="stylesheet" />
+        <link href="../Skins/Default/Stylesheets/Components/Mobile.css" rel="stylesheet" />
+        <link href="../Skins/Fluid/Stylesheets/foundation.6.2.3.css" rel="stylesheet" />
+        <link href="../Skins/Fluid/Stylesheets/Styles.css" rel="stylesheet" />
+        <link href="../Skins/Fluid/Stylesheets/Tablet.css" rel="stylesheet" />
+        <link href="../Skins/Fluid/Stylesheets/Mobile.css" rel="stylesheet" />
         <link href="../Resources/Stylesheets/EmbeddedMainStyles.css" rel="stylesheet" />
+        <link href="../Resources/TableStyles/table-pebble-clear.css" rel="stylesheet" />
         <script src="../Resources/Scripts/custom.modernizr.js">
         </script>
         <script src="../Resources/Scripts/jquery.min.js">
@@ -24,9 +25,7 @@
         </script>
         <script src="../Resources/Scripts/require.config.js">
         </script>
-        <script src="../Resources/Scripts/foundation.5.5.0_custom.js">
-        </script>
-        <script src="../Resources/Scripts/foundation.offcanvas.js">
+        <script src="../Resources/Scripts/foundation.6.2.3_custom.js">
         </script>
         <script src="../Resources/Scripts/plugins.min.js">
         </script>
@@ -34,138 +33,152 @@
         </script>
     </head>
     <body>
-        <div class="foundation-wrap">
-            <div class="off-canvas-wrap" data-offcanvas="">
-                <section class="inner-wrap">
-                    <nav class="tab-bar" data-mc-ignore="true">
-                        <section class="middle tab-bar-section outer-row clearfix">
-                            <div class="relative clearfix"><a class="logo" href="embedded-home.htm" alt="Logo"></a>
-                                <div class="navigation-wrapper">
-                                    <ul class="navigation clearfix">
-                                        <li><a href="../FM Embedded help/Fund Manager/ConfirmCancellation.htm">Confirm Cancellation</a>
-                                        </li>
-                                        <li><a href="../FM Embedded help/Fund Manager/Dashboard.htm">Dashboard</a>
-                                        </li>
-                                        <li><a href="../FM Embedded help/Fund Manager/EnterReceipt.htm">Enter a Receipt</a>
-                                        </li>
-                                        <li><a href="../FM Embedded help/Fund Manager/ImportePayments.htm">Update Transactions</a>
-                                        </li>
-                                        <li><a href="../FM Embedded help/Fund Manager/ManageLedgerCodes.htm">Manage Ledger Codes</a>
-                                        </li>
-                                        <li><a href="../FM Embedded help/Fund Manager/RecordPayment.htm">Record a Payment</a>
-                                        </li>
-                                        <li><a href="../FM Embedded help/Fund Manager/SearchAccountBalances.htm">Search account balances</a>
-                                        </li>
-                                        <li><a href="../FM Embedded help/Fund Manager/SetLedgerCodes.htm">Set Ledger&#160;Codes</a>
-                                        </li>
-                                        <li><a href="../FM Embedded help/Fund Manager/SetVATStatus.htm">Set VAT&#160;Status</a>
-                                        </li>
-                                        <li><a href="../FM Embedded help/Fund Manager/SplitPayment.htm">Split Payment</a>
-                                        </li>
-                                        <li><a href="../FM Embedded help/Fund Manager/SplitReceipt.htm">Split Receipt</a>
-                                        </li>
-                                        <li><a href="../FM Embedded help/Fund Manager/TransferBetweenAccounts.htm">Transfer between Accounts</a>
-                                        </li>
-                                        <li><a href="../FM Embedded help/Fund Manager/TransferBetweenBankAccounts.htm">Transfer between bank accounts</a>
-                                        </li>
-                                        <li><a href="../FM Embedded help/Fund Manager/TransferBetweenNames.htm">Transfer between Names</a>
-                                        </li>
-                                        <li><a href="../FM Embedded help/Fund Manager/UpdateLedgerCode.htm">Update Ledger Code</a>
-                                        </li>
-                                        <li><a href="../FM Embedded help/Fund Manager/ViewTransactions.htm">View Transactions</a>
-                                        </li>
-                                    </ul>
-                                </div><a class="menu-icon right-off-canvas-toggle" href="#"><span></span></a>
+        <div class="foundation-wrap off-canvas-wrapper">
+            <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper="">
+                <aside class="off-canvas position-right" id="offCanvas" data-off-canvas="" data-position="right" data-mc-ignore="true">
+                    <ul class="off-canvas-drilldown vertical menu off-canvas-list" data-drilldown="" data-mc-back-link="Back" data-mc-css-tree-node-expanded="is-drilldown-submenu-parent" data-mc-css-tree-node-collapsed="is-drilldown-submenu-parent" data-mc-css-sub-menu="vertical menu slide-in-right is-drilldown-submenu" data-mc-include-indicator="False" data-mc-include-icon="False" data-mc-include-parent-link="True" data-mc-include-back="True" data-mc-defer-expand-event="True" data-mc-expand-event="click.zf.drilldown" data-mc-toc="True">
+                    </ul>
+                </aside>
+                <div class="off-canvas-content inner-wrap" data-off-canvas-content="">
+                    <div>
+                        <nav class="title-bar tab-bar" data-mc-ignore="true">
+                            <div class="middle title-bar-section outer-row clearfix">
+                                <div class="relative clearfix"><a class="logo" href="Arro-embedded-home.htm" alt="Logo"></a>
+                                    <div class="navigation-wrapper nocontent">
+                                        <ul class="navigation clearfix" data-mc-css-tree-node-has-children="has-children" data-mc-css-sub-menu="sub-menu" data-mc-expand-event="mouseenter" data-mc-top-nav-menu="True" data-mc-max-depth="3" data-mc-include-icon="False" data-mc-include-indicator="False" data-mc-include-children="True" data-mc-include-siblings="True" data-mc-include-parent="True" data-mc-toc="True">
+                                            <li class="placeholder" style="visibility:hidden"><a>placeholder</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <button class="menu-icon" data-toggle="offCanvas"><span></span>
+                                    </button>
+                                </div>
                             </div>
-                        </section>
-                        <div class="nav-search row outer-row">
-                            <form class="search" action="#">
-                                <div class="search-bar search-bar-container needs-pie">
-                                    <input class="search-field needs-pie" type="search" placeholder="Search for help on ..." />
-                                    <div class="search-filter-wrapper">
-                                        <div class="search-filter">
-                                            <div class="search-filter-content">
-                                                <ul>
-                                                    <li>All Files</li>
-                                                </ul>
+                            <div class="nav-search row outer-row">
+                                <form class="search" action="#">
+                                    <div class="search-bar search-bar-container needs-pie">
+                                        <input class="search-field needs-pie" type="search" placeholder="Search for help on ..." />
+                                        <div class="search-filter-wrapper">
+                                            <div class="search-filter">
+                                                <div class="search-filter-content">
+                                                    <ul>
+                                                        <li>All Files</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="search-submit-wrapper" dir="ltr">
+                                            <div class="search-submit" title="Search">
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="search-submit-wrapper" dir="ltr">
-                                        <div class="search-submit" title="Search">
-                                        </div>
-                                    </div>
-                                </div>
-                            </form>
-                        </div>
-                    </nav>
-                    <aside class="right-off-canvas-menu" data-mc-ignore="true">
-                        <ul class="off-canvas-list" data-mc-back-link="Back" data-mc-css-tree-node-expanded="has-submenu" data-mc-css-tree-node-collapsed="has-submenu" data-mc-css-sub-menu="right-submenu" data-mc-include-indicator="False" data-mc-include-icon="False" data-mc-include-parent-link="True" data-mc-include-back="True" data-mc-defer-expand-event="True" data-mc-expand-event="click.fndtn.offcanvas" data-mc-toc="True">
-                        </ul>
-                    </aside>
+                                </form>
+                            </div>
+                        </nav>
+                    </div>
                     <section class="main-section">
                         <div class="row outer-row" data-mc-content-body="True">
                             <h4 class="paneltitle">Record donation</h4>
-                            <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" height="11" width="16" alt="Closed" data-mc-alt2="Open" />About the fields</a></span>
-                                <div class="MCDropDownBody dropDownBody">
-                                    <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" height="11" width="16" alt="Closed" data-mc-alt2="Open" />xxx</a></span>
-                                        <div class="MCDropDownBody dropDownBody">
-                                            <p>xxx</p>
-                                            <p>xxx</p>
-                                        </div>
-                                    </div>
-                                    <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" height="11" width="16" alt="Closed" data-mc-alt2="Open" />xxx</a></span>
-                                        <div class="MCDropDownBody dropDownBody">
-                                            <p>xxx</p>
-                                        </div>
-                                    </div>
-                                    <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" height="11" width="16" alt="Closed" data-mc-alt2="Open" />xxx</a></span>
-                                        <div class="MCDropDownBody dropDownBody">
-                                            <p>xxx</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <p>xxxx</p>
-                            <p>Use this screen to xxx.</p>
+                            <p>Use this screen to record donations to your project from existing donors or from new donors. When you record donations you can specify if the donor is eligible for the Gift Aid scheme. Gift Aid is a way of achieving a 25% uplift on your donations. To benefit from the Gift Aid scheme, your organisation must be a charity or have charitable status and your donor must be a UK taxpayer. For more information and to ensure that your organisation is eligible to receive gift aid, see the <a href="https://www.gov.uk/claim-gift-aid" target="_blank" rel="noopener noreferrer">HMRC requirements for claiming gift aid</a>.</p>
                             <h4>How do I ...</h4>
-                            <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" height="11" width="16" alt="Closed" data-mc-alt2="Open" />xxx?</a></span>
+                            <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" height="11" width="16" alt="Closed" data-mc-alt2="Open" />Check someone is eligible for Gift Aid?</a></span>
+                                <div class="MCDropDownBody dropDownBody">
+                                    <ul>
+                                        <li value="1">Check the requirements for eligibility on the HMRC website by clicking <a href="https://www.gov.uk/claim-gift-aid" target="_blank" rel="noopener noreferrer">here</a>.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" height="11" width="16" alt="Closed" data-mc-alt2="Open" />Find an existing donor?</a></span>
+                                <div class="MCDropDownBody dropDownBody">
+                                    <ul>
+                                        <li value="1">Use the <span class="Name">Search by Name</span> box to find an existing donor and then select the check box to the left of the donor name. </li>
+                                        <p>The search will find and display names which contain the letters you type. If you enter more than one letter, the search finds and displays names which contain the letters consecutively. For example: </p>
+                                        <table style="width: 100%;margin-left: auto;margin-right: auto;mc-table-style: url('../Resources/TableStyles/table-pebble-clear.css');" class="TableStyle-SimpleWithPadding" cellspacing="0">
+                                            <col class="TableStyle-SimpleWithPadding-Column-Column1" />
+                                            <col class="TableStyle-SimpleWithPadding-Column-Column1" />
+                                            <thead>
+                                                <tr class="TableStyle-SimpleWithPadding-Head-Header1">
+                                                    <th class="TableStyle-SimpleWithPadding-HeadE-Column1-Header1">if you enter</th>
+                                                    <th class="TableStyle-SimpleWithPadding-HeadD-Column1-Header1">the display includes</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr class="TableStyle-SimpleWithPadding-Body-Row1">
+                                                    <td style="text-align: center;" class="TableStyle-SimpleWithPadding-BodyE-Column1-Row1">s</td>
+                                                    <td style="text-align: center;" class="TableStyle-SimpleWithPadding-BodyD-Column1-Row1">Alexander Andrews, Jessica Martin, Marcus Mortimer</td>
+                                                </tr>
+                                                <tr class="TableStyle-SimpleWithPadding-Body-Row1">
+                                                    <td style="text-align: center;" class="TableStyle-SimpleWithPadding-BodyE-Column1-Row1">sa</td>
+                                                    <td style="text-align: center;" class="TableStyle-SimpleWithPadding-BodyD-Column1-Row1">James Savage, Lisa Wickham, Sarah Irvine</td>
+                                                </tr>
+                                                <tr class="TableStyle-SimpleWithPadding-Body-Row1">
+                                                    <td style="text-align: center;" class="TableStyle-SimpleWithPadding-BodyB-Column1-Row1">san</td>
+                                                    <td style="text-align: center;" class="TableStyle-SimpleWithPadding-BodyA-Column1-Row1">Sandy Bell, Angelica Artisan, Sandra Irvine</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" height="11" width="16" alt="Closed" data-mc-alt2="Open" />Change the gift aid status of an existing donor?</a></span>
+                                <div class="MCDropDownBody dropDownBody">
+                                    <ul>
+                                        <li value="1">You can do this by amending the existing donor details within the <span class="ArroModulesCampaigns">Campaigns</span> module. </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" height="11" width="16" alt="Closed" data-mc-alt2="Open" />Add a  new donor?</a></span>
                                 <div class="MCDropDownBody dropDownBody">
                                     <ol>
-                                        <li value="1">xxx.</li>
-                                        <li value="2"> <![CDATA[ ]]></li>
-                                        <li value="3"> <![CDATA[ ]]></li>
-                                        <li value="4">xxx.</li>
+                                        <li value="1"><a name="newdonor"></a>Click <span class="Name">+Add Name</span> to open the <span class="Name">Create Stakeholder</span> window.</li>
+                                        <li value="2">Select the profile type of the donor.</li>
+                                        <li value="3">Enter the stakeholder name and address and click <span class="Name">Add Contact Details</span> to add phone numbers and addresses.</li>
+                                        <li value="4">If the donor is eligible as a gift aid donor:</li>
+                                        <ul>
+                                            <li value="1">Click <span class="Name">Add Gift Aid/Volunteer Status</span> and select the check box, <span class="Name">This contact is eligible for Gift Aid</span>.</li>
+                                            <li value="2">Enter the gift aid donor’s <span class="Name">Title</span>, <span class="Name">Donor First Name</span> and <span class="Name">Donor Last Name</span>.</li>
+                                        </ul>
+                                        <p class="note" data-mc-autonum="Note: "><span class="autonumber"><span class="Emphasis">Note: </span></span>It is a legal requirement to retain the information on who is responsible for the gift aid, so if you don’t record the donor’s name here then donations aren’t recorded as donations with gift aid.</p>
+                                        <li value="5">If the donor wants to volunteer and help the school, select the check box, This contact would like to volunteer and help my school.</li>
+                                        <li value="6">Click <span class="Name">Create</span>.</li>
                                     </ol>
                                 </div>
                             </div>
-                            <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" height="11" width="16" alt="Closed" data-mc-alt2="Open" />xxx</a></span>
+                            <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" height="11" width="16" alt="Closed" data-mc-alt2="Open" />Record a donation?</a></span>
                                 <div class="MCDropDownBody dropDownBody">
                                     <ol>
-                                        <li value="1">xxx</li>
-                                        <li value="2">&#160;</li>
-                                        <li value="3"> <![CDATA[ ]]></li>
-                                        <li value="4"> <![CDATA[ ]]></li>
-                                        <li value="5">xxx.</li>
-                                    </ol>
-                                </div>
-                            </div>
-                            <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" height="11" width="16" alt="Closed" data-mc-alt2="Open" />xxx?</a></span>
-                                <div class="MCDropDownBody dropDownBody">
-                                    <ol>
-                                        <li value="1">xxx. </li>
-                                        <li value="2">xxx</li>
+                                        <li value="1">Enter the <span class="Name">Amount</span> of the donation.</li>
+                                        <li value="2">Select the donation <span class="Name">Type</span> - Cash, Cheque, Direct Credit or ePayment. </li>
+                                        <p class="note" data-mc-autonum="Note: "><span class="autonumber"><span class="Emphasis">Note: </span></span> ePayment donations are made when donors click the <span class="Name">Donations</span> button on the <span class="Name">Joinos Web Page</span> for your school or academy.</p>
+                                        <li value="3">Select the donation <span class="Name">Date</span>.</li>
+                                        <li value="4">The donation is given a default <span class="Name">Description</span><i>This is a voluntary donation</i>. If you want to add your own description, click <span class="Name">Add Description </span>and enter the description into the box that appears.</li>
+                                        <li value="5">Locate the donor <span class="Name">Name</span>.</li>
+                                        <p>You can:</p>
+                                        <ul>
+                                            <li value="1">Add a new donor by clicking <span class="Name">+ Add Name</span>. Then follow the guidance for <a href="#newdonor">Add a new donor</a>.</li>
+                                            <li value="2">Select an existing donor by selecting the check box to the left of the donor names listed. If you know the donor name or part of the donor name, enter this in the <span class="Name">Search by Name</span> box and click the <span class="Name">Find</span> icon <img src="../support/arro/Images/Search.png" style="vertical-align: text-bottom;" />.</li>
+                                        </ul>
+                                        <li value="6">If the donor is eligible for Gift Aid, select Claim Gift Aid on this donation.</li>
+                                        <p>If you are selecting an existing donor, and the donor has been set up for Gift Aid, the Gift Aid symbol for the donor will show in colour <img src="../support/arro/Images/GiftAidEnabled.png" style="vertical-align: middle;" />. If you are unsure whether the donor qualifies for Gift Aid,  see the <a href="https://www.gov.uk/claim-gift-aid" target="_blank" rel="noopener noreferrer">HMRC requirements for claiming gift aid</a>.</p>
+                                        <li value="7">
+                                            <p>Click <span class="Name">Create Donation</span> and you will receive a <span class="Name">Donation Recorded</span> message at the top of the screen. For example:</p>
+                                            <p><a class="MCPopupThumbnailLink MCPopupThumbnailPopup" href="../support/arro/Images/DonationRecordedMessage.png"><img class="MCPopupThumbnail img imgThumbnail" data-mc-width="434" data-mc-height="63" src="../support/arro/Images/DonationRecordedMessage_thumb_0_48.png" tabindex="" /></a>
+                                            </p>
+                                        </li>
                                     </ol>
                                 </div>
                             </div>
                             <div class="wrapper-footer">
                                 <div class="line">
                                 </div>
-                                <h5 class="panelmoreinfo">More help is available on <a href="https://www.mypebble.co.uk/supportdocs/Content/support/home.htm" target="_blank">Pebble Support Website.</a></h5>
+                                <h5 class="panelmoreinfo">More help is available on <a href="https://www.mypebble.co.uk/supportdocs/Content/support/home.htm" target="_blank" rel="noopener noreferrer">Pebble Support Website.</a></h5>
+                                <div class="line">
+                                </div>
+                                <h5 class="panelmoreinfo"> <a href="https://docs.google.com/a/talktopebble.co.uk/forms/d/e/1FAIpQLSd1TRiH9VUi0j7yun8x_72m0yn1pHT497QM0mgGyPiCPWCpOQ/viewform" target="_blank" rel="noopener noreferrer">How likely are you to recommend Arro Support to other schools?</a></h5>
                             </div>
                         </div>
-                    </section><a class="exit-off-canvas"></a>
-                </section>
+                    </section><a data-close="true"></a>
+                </div>
             </div>
             <script>/* <![CDATA[ */$(document).foundation();/* ]]> */</script>
         </div>

@@ -141,14 +141,20 @@ h1
 	
 }
 
+h1.nobreakbefore
+{
+	mc-heading-level: 0;
+}
+
 h2
 {
-	
+	margin-top: 0.75rem;
 }
 
 h3
 {
 	mc-heading-level: 3;
+	margin-top: 0.75rem;
 }
 
 img
@@ -170,7 +176,9 @@ img.ReduceButtonSize
 
 li
 {
-	
+	mc-hyphenate-shortest-prefix: 20;
+	margin-bottom: 3px;
+	margin-top: 3px;
 }
 
 MadCap|breadcrumbsProxy
@@ -277,7 +285,8 @@ ol ol ol
 
 p
 {
-	
+	mc-hyphenate-shortest-prefix: 20;
+	margin-bottom: 3px;
 }
 
 p.CompanyInformation1
@@ -442,6 +451,8 @@ MadCap|glossaryTerm:focus
 h4
 {
 	mc-heading-level: 0;
+	margin-top: 0.75rem;
+	margin-bottom: 0.75rem;
 }
 
 h5
@@ -488,6 +499,116 @@ h6
 		max-height: auto;
 		max-width: 500px;
 	}
+
+	h3
+	{
+		mc-hyphenate: never;
+		mc-hyphenate-shortest-word: 20;
+	}
+
+	h1
+	{
+		mc-hyphenate: never;
+		mc-hyphenate-shortest-word: 20;
+	}
+
+	h2
+	{
+		mc-hyphenate: never;
+		mc-hyphenate-shortest-word: 20;
+	}
+
+	p
+	{
+		mc-hyphenate: never;
+		mc-hyphenate-shortest-word: 20;
+	}
+
+	img.print
+	{
+		mc-float: center;
+	}
+
+	table
+	{
+		margin-bottom: 2rem;
+		page-break-inside: auto;
+	}
+
+	_generic_.table
+	{
+		margin-bottom: 1rem;
+	}
+
+	div.example
+	{
+		background-color: #f0f8ff;
+		border-left-style: solid;
+		border-left-width: 1px;
+		border-right-style: solid;
+		border-right-width: 1px;
+		border-top-style: solid;
+		border-top-width: 1px;
+		border-bottom-style: solid;
+		border-bottom-width: 1px;
+		margin-bottom: 7pt;
+		padding-left: 1px;
+		padding-right: 1px;
+		padding-top: 1px;
+		padding-bottom: 1px;
+		mc-hyphenate-shortest-word: 20;
+		orphans: 0;
+		widows: 5;
+	}
+
+	span.Name
+	{
+		color: #808080;
+		font-weight: normal;
+		font-style: normal;
+	}
+
+	span.Emphasis
+	{
+		font-weight: bold;
+		font-style: normal;
+	}
+
+	p.pagebreak
+	{
+		page-break-after: always;
+		page-break-before: avoid;
+	}
+
+	p.pagebreakafter
+	{
+		page-break-after: always;
+		mc-auto-number-position: none;
+		mc-auto-number-format: '{ }';
+	}
+
+	p.IndexHeading
+	{
+		text-align: left;
+		margin-top: 6pt;
+		margin-bottom: 6pt;
+		mc-float: outside-frame-left;
+	}
+
+	p.Index1
+	{
+		mc-float: outside-frame-left;
+	}
+
+	a.printed
+	{
+		format: '{h1} on page {page}.';
+	}
+
+	MadCap|xref
+	{
+		mc-format: '{h1} on page {page}.';
+	}
 }
 
 li.bullet
@@ -497,7 +618,7 @@ li.bullet
 
 p.bullet
 {
-	
+	mc-hyphenate-shortest-prefix: 20;
 }
 
 h4.RelatedTopicHeading
@@ -546,8 +667,8 @@ h5.panelmoreinfo
 
 h2.NotInToc
 {
-	text-align: center;
 	mc-heading-level: 0;
+	text-align: left;
 }
 
 h1.NotInToc
@@ -558,5 +679,57 @@ h1.NotInToc
 td.topalign
 {
 	vertical-align: top;
+}
+
+p.web
+{
+	
+}
+
+p.aftertable
+{
+	line-height: 0.5px;
+}
+
+h1.nobreakbefore
+{
+	page-break-before: avoid;
+	mc-float: center;
+}
+
+p.pagebreak
+{
+	mc-hyphenate-shortest-prefix: 20;
+	page-break-before: always;
+}
+
+p.quotation
+{
+	mc-hyphenate-shortest-prefix: 20;
+	font-weight: normal;
+	font-style: italic;
+	margin-left: 30pt;
+	margin-right: 30px;
+}
+
+th.PageBreakBefore
+{
+	
+}
+
+p.pagebreakafter
+{
+	mc-auto-number-class: Emphasis;
+	mc-auto-number-format: 'Tip: ';
+}
+
+MadCap|xref.textinchapter
+{
+	mc-format: '{pageref}';
+}
+
+MadCap|xref.textinsidechapter
+{
+	mc-format: '{h2} on page {page}.';
 }
 

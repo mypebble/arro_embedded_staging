@@ -4,17 +4,17 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta charset="utf-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>Create community page</title>
-        <link href="../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" data-mc-generated="True" />
-        <link href="../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" data-mc-generated="True" />
-        <link href="../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" data-mc-generated="True" />
-        <link href="../Skins/Default/Stylesheets/Components/Styles.css" rel="stylesheet" data-mc-generated="True" />
-        <link href="../Skins/Default/Stylesheets/Components/Tablet.css" rel="stylesheet" data-mc-generated="True" />
-        <link href="../Skins/Default/Stylesheets/Components/Mobile.css" rel="stylesheet" data-mc-generated="True" />
-        <link href="../Skins/Fluid/Stylesheets/foundation.5.5.0.css" rel="stylesheet" data-mc-generated="True" />
-        <link href="../Skins/Fluid/Stylesheets/Styles.css" rel="stylesheet" data-mc-generated="True" />
-        <link href="../Skins/Fluid/Stylesheets/Tablet.css" rel="stylesheet" data-mc-generated="True" />
-        <link href="../Skins/Fluid/Stylesheets/Mobile.css" rel="stylesheet" data-mc-generated="True" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>Create and update community page</title>
+        <link href="../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../Skins/Default/Stylesheets/Components/Styles.css" rel="stylesheet" />
+        <link href="../Skins/Default/Stylesheets/Components/Tablet.css" rel="stylesheet" />
+        <link href="../Skins/Default/Stylesheets/Components/Mobile.css" rel="stylesheet" />
+        <link href="../Skins/Fluid/Stylesheets/foundation.6.2.3.css" rel="stylesheet" />
+        <link href="../Skins/Fluid/Stylesheets/Styles.css" rel="stylesheet" />
+        <link href="../Skins/Fluid/Stylesheets/Tablet.css" rel="stylesheet" />
+        <link href="../Skins/Fluid/Stylesheets/Mobile.css" rel="stylesheet" />
         <link href="../Resources/Stylesheets/EmbeddedMainStyles.css" rel="stylesheet" />
         <script src="../Resources/Scripts/custom.modernizr.js">
         </script>
@@ -24,9 +24,7 @@
         </script>
         <script src="../Resources/Scripts/require.config.js">
         </script>
-        <script src="../Resources/Scripts/foundation.5.5.0_custom.js">
-        </script>
-        <script src="../Resources/Scripts/foundation.offcanvas.js">
+        <script src="../Resources/Scripts/foundation.6.2.3_custom.js">
         </script>
         <script src="../Resources/Scripts/plugins.min.js">
         </script>
@@ -34,138 +32,180 @@
         </script>
     </head>
     <body>
-        <div class="foundation-wrap">
-            <div class="off-canvas-wrap" data-offcanvas="">
-                <section class="inner-wrap">
-                    <nav class="tab-bar" data-mc-ignore="true">
-                        <section class="middle tab-bar-section outer-row clearfix">
-                            <div class="relative clearfix"><a class="logo" href="embedded-home.htm" alt="Logo"></a>
-                                <div class="navigation-wrapper">
-                                    <ul class="navigation clearfix">
-                                        <li><a href="../FM Embedded help/Fund Manager/ConfirmCancellation.htm">Confirm Cancellation</a>
-                                        </li>
-                                        <li><a href="../FM Embedded help/Fund Manager/Dashboard.htm">Dashboard</a>
-                                        </li>
-                                        <li><a href="../FM Embedded help/Fund Manager/EnterReceipt.htm">Enter a Receipt</a>
-                                        </li>
-                                        <li><a href="../FM Embedded help/Fund Manager/ImportePayments.htm">Update Transactions</a>
-                                        </li>
-                                        <li><a href="../FM Embedded help/Fund Manager/ManageLedgerCodes.htm">Manage Ledger Codes</a>
-                                        </li>
-                                        <li><a href="../FM Embedded help/Fund Manager/RecordPayment.htm">Record a Payment</a>
-                                        </li>
-                                        <li><a href="../FM Embedded help/Fund Manager/SearchAccountBalances.htm">Search account balances</a>
-                                        </li>
-                                        <li><a href="../FM Embedded help/Fund Manager/SetLedgerCodes.htm">Set Ledger&#160;Codes</a>
-                                        </li>
-                                        <li><a href="../FM Embedded help/Fund Manager/SetVATStatus.htm">Set VAT&#160;Status</a>
-                                        </li>
-                                        <li><a href="../FM Embedded help/Fund Manager/SplitPayment.htm">Split Payment</a>
-                                        </li>
-                                        <li><a href="../FM Embedded help/Fund Manager/SplitReceipt.htm">Split Receipt</a>
-                                        </li>
-                                        <li><a href="../FM Embedded help/Fund Manager/TransferBetweenAccounts.htm">Transfer between Accounts</a>
-                                        </li>
-                                        <li><a href="../FM Embedded help/Fund Manager/TransferBetweenBankAccounts.htm">Transfer between bank accounts</a>
-                                        </li>
-                                        <li><a href="../FM Embedded help/Fund Manager/TransferBetweenNames.htm">Transfer between Names</a>
-                                        </li>
-                                        <li><a href="../FM Embedded help/Fund Manager/UpdateLedgerCode.htm">Update Ledger Code</a>
-                                        </li>
-                                        <li><a href="../FM Embedded help/Fund Manager/ViewTransactions.htm">View Transactions</a>
-                                        </li>
-                                    </ul>
-                                </div><a class="menu-icon right-off-canvas-toggle" href="#"><span></span></a>
+        <div class="foundation-wrap off-canvas-wrapper">
+            <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper="">
+                <aside class="off-canvas position-right" id="offCanvas" data-off-canvas="" data-position="right" data-mc-ignore="true">
+                    <ul class="off-canvas-drilldown vertical menu off-canvas-list" data-drilldown="" data-mc-back-link="Back" data-mc-css-tree-node-expanded="is-drilldown-submenu-parent" data-mc-css-tree-node-collapsed="is-drilldown-submenu-parent" data-mc-css-sub-menu="vertical menu slide-in-right is-drilldown-submenu" data-mc-include-indicator="False" data-mc-include-icon="False" data-mc-include-parent-link="True" data-mc-include-back="True" data-mc-defer-expand-event="True" data-mc-expand-event="click.zf.drilldown" data-mc-toc="True">
+                    </ul>
+                </aside>
+                <div class="off-canvas-content inner-wrap" data-off-canvas-content="">
+                    <div>
+                        <nav class="title-bar tab-bar" data-mc-ignore="true">
+                            <div class="middle title-bar-section outer-row clearfix">
+                                <div class="relative clearfix"><a class="logo" href="Arro-embedded-home.htm" alt="Logo"></a>
+                                    <div class="navigation-wrapper nocontent">
+                                        <ul class="navigation clearfix" data-mc-css-tree-node-has-children="has-children" data-mc-css-sub-menu="sub-menu" data-mc-expand-event="mouseenter" data-mc-top-nav-menu="True" data-mc-max-depth="3" data-mc-include-icon="False" data-mc-include-indicator="False" data-mc-include-children="True" data-mc-include-siblings="True" data-mc-include-parent="True" data-mc-toc="True">
+                                            <li class="placeholder" style="visibility:hidden"><a>placeholder</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <button class="menu-icon" data-toggle="offCanvas"><span></span>
+                                    </button>
+                                </div>
                             </div>
-                        </section>
-                        <div class="nav-search row outer-row">
-                            <form class="search" action="#">
-                                <div class="search-bar search-bar-container needs-pie">
-                                    <input class="search-field needs-pie" type="search" placeholder="Search for help on ..." />
-                                    <div class="search-filter-wrapper">
-                                        <div class="search-filter">
-                                            <div class="search-filter-content">
-                                                <ul>
-                                                    <li>All Files</li>
-                                                </ul>
+                            <div class="nav-search row outer-row">
+                                <form class="search" action="#">
+                                    <div class="search-bar search-bar-container needs-pie">
+                                        <input class="search-field needs-pie" type="search" placeholder="Search for help on ..." />
+                                        <div class="search-filter-wrapper">
+                                            <div class="search-filter">
+                                                <div class="search-filter-content">
+                                                    <ul>
+                                                        <li>All Files</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="search-submit-wrapper" dir="ltr">
+                                            <div class="search-submit" title="Search">
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="search-submit-wrapper" dir="ltr">
-                                        <div class="search-submit" title="Search">
-                                        </div>
-                                    </div>
-                                </div>
-                            </form>
-                        </div>
-                    </nav>
-                    <aside class="right-off-canvas-menu" data-mc-ignore="true">
-                        <ul class="off-canvas-list" data-mc-back-link="Back" data-mc-css-tree-node-expanded="has-submenu" data-mc-css-tree-node-collapsed="has-submenu" data-mc-css-sub-menu="right-submenu" data-mc-include-indicator="False" data-mc-include-icon="False" data-mc-include-parent-link="True" data-mc-include-back="True" data-mc-defer-expand-event="True" data-mc-expand-event="click.fndtn.offcanvas" data-mc-toc="True">
-                        </ul>
-                    </aside>
+                                </form>
+                            </div>
+                        </nav>
+                    </div>
                     <section class="main-section">
                         <div class="row outer-row" data-mc-content-body="True">
-                            <h4 class="paneltitle">Create community page</h4>
-                            <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" height="11" width="16" alt="Closed" data-mc-alt2="Open" />About the fields</a></span>
-                                <div class="MCDropDownBody dropDownBody">
-                                    <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" height="11" width="16" alt="Closed" data-mc-alt2="Open" />xxx</a></span>
-                                        <div class="MCDropDownBody dropDownBody">
-                                            <p>xxx</p>
-                                            <p>xxx</p>
-                                        </div>
-                                    </div>
-                                    <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" height="11" width="16" alt="Closed" data-mc-alt2="Open" />xxx</a></span>
-                                        <div class="MCDropDownBody dropDownBody">
-                                            <p>xxx</p>
-                                        </div>
-                                    </div>
-                                    <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" height="11" width="16" alt="Closed" data-mc-alt2="Open" />xxx</a></span>
-                                        <div class="MCDropDownBody dropDownBody">
-                                            <p>xxx</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <p>xxxx</p>
-                            <p>Use this screen to xxx.</p>
+                            <h4 class="paneltitle">Create and update community page</h4>
+                            <p>The project community page is the central focal point for advertising your project online and sharing information about the project and its progress. It is absolutely essential that you use this page to share news about your project’s progress and to appeal for support in the wider community for your project and its aims. Once you start sharing your project community page you will start to see returns in donations and people signing up to volunteer to help with the project or to provide sponsorship for the project.</p>
+                            <p>Use this screen to view and make changes to your project’s community page and publish the changes.</p>
                             <h4>How do I ...</h4>
-                            <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" height="11" width="16" alt="Closed" data-mc-alt2="Open" />xxx?</a></span>
+                            <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" height="11" width="16" alt="Closed" data-mc-alt2="Open" />Understand the community page elements?</a></span>
                                 <div class="MCDropDownBody dropDownBody">
+                                    <p>The page has a number of elements which help people understand more about the project and what it will mean if they donate to it. </p>
+                                    <p class="note" data-mc-autonum="Note: "><span class="autonumber"><span class="Emphasis">Note: </span></span>The following is an example of a community page to help you recognise the different parts.</p>
+                                    <p><a class="MCPopupThumbnailLink MCPopupThumbnailPopup" href="../support/arro/Images/Joinos-Images/Joinos web page.png"><img class="MCPopupThumbnail img imgThumbnail" data-mc-width="968" data-mc-height="1276" src="../support/arro/Images/Joinos-Images/Joinos web page_thumb_0_48.png" tabindex="" /></a>
+                                    </p>
+                                    <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" height="11" width="16" alt="Closed" data-mc-alt2="Open" />Header</a></span>
+                                        <div class="MCDropDownBody dropDownBody">
+                                            <p>The header contains the project image, title and the first of two <span class="Name">Donate</span> buttons. It also includes the current amount donated to the project along with the number of supporters.</p>
+                                        </div>
+                                    </div>
+                                    <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" height="11" width="16" alt="Closed" data-mc-alt2="Open" />Narrative</a></span>
+                                        <div class="MCDropDownBody dropDownBody">
+                                            <p>The narrative section of the web page contains  the story behind the project, the key benefits the project will have and messages from the project’s supporters. Beneath the narrative are the second of two <span class="Name">Donate</span> buttons and Facebook and Twitter links for people to share the project story with a social network. </p>
+                                        </div>
+                                    </div>
+                                    <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" height="11" width="16" alt="Closed" data-mc-alt2="Open" />Enquiries about sponsoring a project</a></span>
+                                        <div class="MCDropDownBody dropDownBody">
+                                            <p>If a business organisation would like to sponsor the project by providing financial support, they can let you know by clicking on the <span class="Name">Enquire Online</span> button and filling in their details. When they do this, the details are recorded on the <span class="Name">Stakeholders</span> tab. </p>
+                                        </div>
+                                    </div>
+                                    <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" height="11" width="16" alt="Closed" data-mc-alt2="Open" />Volunteers for the project</a></span>
+                                        <div class="MCDropDownBody dropDownBody">
+                                            <p>If people are interested in helping the project by giving some of their time to help with the project, they can use the <span class="Name">Become a Volunteer</span> form to register their interest in doing this. When they do this, the details are recorded on the <span class="Name">Stakeholders</span> tab. </p>
+                                        </div>
+                                    </div>
+                                    <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" height="11" width="16" alt="Closed" data-mc-alt2="Open" />About the school</a></span>
+                                        <div class="MCDropDownBody dropDownBody">
+                                            <p>Some background information about the school.</p>
+                                        </div>
+                                    </div>
+                                    <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" height="11" width="16" alt="Closed" data-mc-alt2="Open" />Footer</a></span>
+                                        <div class="MCDropDownBody dropDownBody">
+                                            <p>The footer contains email addresses and telephone numbers which donors or sponsors may find useful.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" height="11" width="16" alt="Closed" data-mc-alt2="Open" />Change the image?</a></span>
+                                <div class="MCDropDownBody dropDownBody">
+                                    <p class="note" data-mc-autonum="Note: " data-mc-conditions="Released.170307"><span class="autonumber"><span class="Emphasis">Note: </span></span>If you want to upload your own images to put on the community page, and you are not sure how to do this, send the images to Pebble and we will upload them for you. You will then be able to select them from the drop-down list of images.</p>
                                     <ol>
-                                        <li value="1">xxx.</li>
-                                        <li value="2"> </li>
-                                        <li value="3"> </li>
-                                        <li value="4">xxx.</li>
+                                        <li value="1">Click <span class="Name">Edit</span>.</li>
+                                        <li value="2">To change the image at the top of the community page, click <span class="Name">Change Image</span>.</li>
+                                        <li value="3" data-mc-conditions="Released.170307">To select an image of your own, click <span class="Name">+Custom</span>.</li>
+                                        <li value="4">Select an image from the available images.</li>
+                                        <li value="5">Click <span class="Name">I’m Done Editing</span>.</li>
                                     </ol>
                                 </div>
                             </div>
-                            <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" height="11" width="16" alt="Closed" data-mc-alt2="Open" />xxx</a></span>
+                            <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" height="11" width="16" alt="Closed" data-mc-alt2="Open" />Change the Logo?</a></span>
+                                <div class="MCDropDownBody dropDownBody">
+                                    <ul>
+                                        <li value="1">Send the image of the school logo to us at Pebble and we will make the change on your community page.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" height="11" width="16" alt="Closed" data-mc-alt2="Open" />Change the theme?</a></span>
                                 <div class="MCDropDownBody dropDownBody">
                                     <ol>
-                                        <li value="1">xxx</li>
-                                        <li value="2">&#160;</li>
-                                        <li value="3"> </li>
-                                        <li value="4"> </li>
-                                        <li value="5">xxx.</li>
+                                        <li value="1">Click <span class="Name">Edit</span>.</li>
+                                        <li value="2">Click <span class="Name">Theme</span>.</li>
+                                        <li value="3">Select the theme that best matches your school’s theme.</li>
+                                        <li value="4">Click <span class="Name">I’m Done Editing</span>.</li>
                                     </ol>
                                 </div>
                             </div>
-                            <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" height="11" width="16" alt="Closed" data-mc-alt2="Open" />xxx?</a></span>
+                            <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" height="11" width="16" alt="Closed" data-mc-alt2="Open" />Change the Project Name?</a></span>
                                 <div class="MCDropDownBody dropDownBody">
                                     <ol>
-                                        <li value="1">xxx. </li>
-                                        <li value="2">xxx</li>
+                                        <li value="1">Click <span class="Name">Edit</span>.</li>
+                                        <li value="2">Click in the <span class="Name">Name</span> to place the cursor in the title box, and then make the amendments you want.</li>
+                                        <li value="3">Click <span class="Name">I’m Done Editing</span>.</li>
                                     </ol>
+                                </div>
+                            </div>
+                            <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" height="11" width="16" alt="Closed" data-mc-alt2="Open" />Change the Project Story?</a></span>
+                                <div class="MCDropDownBody dropDownBody">
+                                    <ol>
+                                        <li value="1">Click <span class="Name">Edit</span>.</li>
+                                        <li value="2">Click in the <span class="Name">Our Project Story</span> box to place the cursor in the box, and then make the amendments you want.</li>
+                                        <li value="3">Click <span class="Name">I’m Done Editing</span>.</li>
+                                    </ol>
+                                </div>
+                            </div>
+                            <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" height="11" width="16" alt="Closed" data-mc-alt2="Open" />Add a link to a web page?</a></span>
+                                <div class="MCDropDownBody dropDownBody">
+                                    <ol>
+                                        <li value="1">Click <span class="Name">Edit</span>.</li>
+                                        <li value="2">Click in the <span class="Name">Our Project Story</span> box and place the cursor where you want to add the link.</li>
+                                        <li value="3">Add the link to the web page that relates to your project by wrapping your link in square brackets and inserting the link in normal brackets immediately afterwards. For example,</li>
+                                        <p>[Click on this link](www.example.com). </p>
+                                        <p>This displays the text <span class="Name">Click on this link</span> as a link in the published page and when you click on it, the web page <i>www.example.com</i> will open. You can open this in a new window or tab if you right-click on the link and select <span class="Name">Open in a new window</span> or <span class="Name">Open in a new tab</span>. </p>
+                                        <li value="4">Click <span class="Name">I’m Done Editing</span>.</li>
+                                    </ol>
+                                </div>
+                            </div>
+                            <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" height="11" width="16" alt="Closed" data-mc-alt2="Open" />Change the key benefits?</a></span>
+                                <div class="MCDropDownBody dropDownBody">
+                                    <ol>
+                                        <li value="1">Click <span class="Name">Edit</span>.</li>
+                                        <li value="2">Click in the <span class="Name">Key benefits</span> boxes and amend the text as required.</li>
+                                        <li value="3">Click <span class="Name">I’m Done Editing</span>.</li>
+                                    </ol>
+                                </div>
+                            </div>
+                            <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage"><img class="MCDropDown_Image_Icon" src="../Skins/Default/Stylesheets/Images/transparent.gif" height="11" width="16" alt="Closed" data-mc-alt2="Open" />Publish the community page?</a></span>
+                                <div class="MCDropDownBody dropDownBody">
+                                    <ul>
+                                        <li value="1">Click <span class="Name">Publish</span>.</li>
+                                        <p>This will push any changes you’ve made to the live community page.</p>
+                                    </ul>
                                 </div>
                             </div>
                             <div class="wrapper-footer">
                                 <div class="line">
                                 </div>
-                                <h5 class="panelmoreinfo">More help is available on <a href="https://www.mypebble.co.uk/supportdocs/Content/support/home.htm" target="_blank">Pebble Support Website.</a></h5>
+                                <h5 class="panelmoreinfo">More help is available on <a href="https://www.mypebble.co.uk/supportdocs/Content/support/home.htm" target="_blank" rel="noopener noreferrer">Pebble Support Website.</a></h5>
+                                <div class="line">
+                                </div>
+                                <h5 class="panelmoreinfo"> <a href="https://docs.google.com/a/talktopebble.co.uk/forms/d/e/1FAIpQLSd1TRiH9VUi0j7yun8x_72m0yn1pHT497QM0mgGyPiCPWCpOQ/viewform" target="_blank" rel="noopener noreferrer">How likely are you to recommend Arro Support to other schools?</a></h5>
                             </div>
                         </div>
-                    </section><a class="exit-off-canvas"></a>
-                </section>
+                    </section><a data-close="true"></a>
+                </div>
             </div>
             <script>/* <![CDATA[ */$(document).foundation();/* ]]> */</script>
         </div>
